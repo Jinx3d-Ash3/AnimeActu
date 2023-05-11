@@ -32,3 +32,18 @@ window.addEventListener("scroll", () =>
 });
  
  posts.forEach(post => postContainer.appendChild(post));
+
+ function search_animal() {
+    var input = document.getElementById("searchbar");
+    var filter = input.value.toUpperCase();
+    var post_boxes = document.getElementsByClassName("post-box");
+  
+    for (var i = 0; i < post_boxes.length; i++) {
+      var post_title = post_boxes[i].querySelector(".post-title");
+      if (post_title.innerText.toUpperCase().indexOf(filter) > -1) {
+        post_boxes[i].style.display = "";
+      } else {
+        post_boxes[i].style.display = "none";
+      }
+    }
+  }
