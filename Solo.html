@@ -10,14 +10,17 @@
         <link rel="stylesheet" href="mains.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
         <header>
-            <div class="nav container">
+            <div class="nav container">            
                 <a href="index.html" class="logo">ANIME<span>ACTU</span></a>
-                <a href="file:///C:/Users/HP/Desktop/AnimeActu/login.html" class="login">Login</a>
+                    <div class="box">
+                        <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Rechercher ..." ><i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
             </div>
         </header>
 
