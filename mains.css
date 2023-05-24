@@ -73,35 +73,7 @@ header.shadow.logo
     justify-content: space-between;
     padding: 18px 0;
 }
-    .box
-{
-    height: 30px;
-    display: flex;
-    cursor: pointer;
-    padding: 10px 20px;
-    background: #fff;
-    border-radius: 30px;
-    align-items: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-.box:hover input
-{
-    width: 400px;
-}
-.box input
-{
-    width: 0;
-    outline: none;
-    border: none;
-    font-weight: 500;
-    transition: 0.8s;
-    background: transparent;
-}
-.box a .fas
-{
-    color: var(--second-color);
-    font-size: 19px;
-}
+
 .logo {
     font-size: 1.5rem ;
     font-weight: 600;
@@ -499,4 +471,33 @@ header.shadow.logo
         margin: 10px 0;
         text-align: justify;
     }
+}
+.box
+{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.box:hover input
+{
+    width: 400px;
+}
+.box input
+{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fas
+{
+    color: var(--second-color);
+    font-size: 19px;
 }
