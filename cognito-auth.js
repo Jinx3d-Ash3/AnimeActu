@@ -58,8 +58,8 @@ $(document).ready(function () {
 
   var cognitoUser;
   var poolData = {
-    UserPoolId: "us-east-2_9MqQXNJpy", // e.g. us-east-2_uXboG5pAb
-    ClientId: "9u50ub46c90rlb0jci3868u4b", // Your client id here
+    UserPoolId: "us-east-2_Q8rR2ogJ8", // e.g. us-east-2_uXboG5pAb
+    ClientId: "4eaq641aggi3u55m8ds3qn8meq", // Your client id here
   };
   var userPool = new AmazonCognitoIdentity.CognitoUserPool(poolData);
 
